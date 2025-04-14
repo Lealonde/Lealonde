@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landscaping Company</title>
+    <style>
+        /* General Reset */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #4CAF50;
+            color: #fff;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        header img {
+            height: 70px; /* Adjust the size of the logo */
+            width: auto;
+        }
+
+        header div {
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+        }
+
+        header h1 {
+            font-size: 1.8rem;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 1rem;
+            margin: 0;
+            color: #e0e0e0; /* Slightly lighter text for the tagline */
+        }
+
+        nav {
+            background: #333;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        nav a {
+            color: #fff;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        nav a:hover {
+            background: #555;
+        }
+
+        section {
+            padding: 20px;
+            margin: 10px auto;
+            max-width: 1200px;
+        }
+
+        .hero {
+            background: url('images/placeholder.jpg') no-repeat center center/cover;
+            color: #fff;
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        .services, .portfolio, .testimonials, .contact {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            header img {
+                margin: 0 auto;
+            }
+
+            header div {
+                text-align: center;
+            }
+
+            nav {
+                flex-direction: column;
+            }
+
+            nav a {
+                padding: 10px;
+            }
+
+            .hero {
+                padding: 60px 20px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero {
+                font-size: 90%;
+            }
+
+            .services, .portfolio, .testimonials, .contact {
+                padding: 30px 10px;
+            }
+        }
